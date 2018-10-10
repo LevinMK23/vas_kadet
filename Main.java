@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("/home/acid/IdeaProjects/Geekbrains/src/Olimp/sort/sort1/StructSort/data.txt"));
+        Scanner in = new Scanner(new File("test.txt"));
         TreeMap<String, School> schools = new TreeMap<>();
         while (in.hasNextLine()){
             String [] l = in.nextLine().split(" ");
